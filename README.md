@@ -1,5 +1,3 @@
----
-
 # SwapDex Module
 
 The **SwapDex** module is a decentralized exchange (DEX) protocol built on the Sui blockchain. It supports token swaps, liquidity provision, staking, and loyalty rewards through a highly modular and scalable design. The module integrates **DeepBook**'s central limit order book (CLOB) functionality and incorporates loyalty incentives to enhance user engagement.
@@ -184,4 +182,3 @@ emit(RewardEvent { message: b"DEX token reward granted" });
 
 Feel free to open issues and submit pull requests. For major changes, please discuss them in an issue first.
 
----
