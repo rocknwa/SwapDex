@@ -1,0 +1,32 @@
+---
+compiled_package_info:
+  package_name: swapdex
+  address_alias_instantiation:
+    deepbook: 000000000000000000000000000000000000000000000000000000000000dee9
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    swapdex: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 3A1C0E2EB9025958654CACEF2A31686F33056832580088D5D0AC3D358F9563C6
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: true
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    json_errors: false
+    additional_named_addresses: {}
+    lint_flag:
+      no_lint: false
+      lint: false
+dependencies:
+  - DeepBook
+  - MoveStdlib
+  - Sui
